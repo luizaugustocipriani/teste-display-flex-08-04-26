@@ -1,0 +1,48 @@
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+header {
+background-color: cadetblue;
+padding: 32px;
+color: white;
+text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#container {
+background-color: purple;
+padding: 32px;
+margin: 16px 0px;
+/*border: 1px solid red;*/
+}
+
+.retangulo {
+    width: 96px;
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow;
+}
+
+.quadrado {
+    width: 64px;
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow;
+}
+
+.circulo {
+    width: 64px;
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow;
+    border-radius: 50%;
+}
