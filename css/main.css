@@ -20,7 +20,19 @@ background-color: purple;
 padding: 32px;
 margin: 16px 0px;
 /*border: 1px solid red;*/
+display: flex;
+justify-content: center;
+justify-content: end;
+justify-content: space-between;
 }
+
+.item {
+    margin: 12px;
+    padding: 12px;
+    height: 64px;
+    background-color: yellow;
+}
+
 
 .retangulo {
     width: 96px;
@@ -40,9 +52,9 @@ margin: 16px 0px;
 
 .circulo {
     width: 64px;
+    border-radius: 50%;
     margin: 12px;
     padding: 12px;
     height: 64px;
     background-color: yellow;
-    border-radius: 50%;
 }
